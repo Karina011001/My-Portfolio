@@ -1,0 +1,129 @@
+@media screen and (max-width: 1400px) {
+    .my-projects__header__second, .form-header {
+        font-size: 200px;
+    }
+}
+@media screen and (max-width: 1200px) {
+	.main__content {
+		display: flex;
+		flex-direction: column;
+	}
+	.home-computer-container {
+		margin-left: 150px;
+		margin-top: -50px;
+	}
+	.about__header__second, .skills__header__second,.dev-tools__header__second, 
+	.my-projects__header__second, .form-header {
+		display: none;
+	}
+	.dev-tools__content {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.carousel {
+		margin-right: 200px;
+		width: 100%;
+	}
+	.dev-tools__header {
+		margin-top: 100px;
+		margin-left: 100px;
+	}
+	.dev-tools__header__first::before {
+		content: "";
+		display: block;
+		background-color: white;
+		height: 1px;
+		width: 100%;
+	} 
+	.my-projects__header__first {
+		text-align: center;
+	}
+    .source {
+       display: flex;
+       flex-direction: column;
+    }
+    form {
+        padding-right: 20px;
+        padding-left: 0px;
+    }
+
+}
+
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+@media screen and (max-width: 980px) {
+	.main__content {
+		display: flex;
+		flex-direction: column;
+	}
+	.home-computer-container {
+		margin-left: 100px;
+		margin-top: -50px;
+	}
+	.about__content {
+		display: flex;
+		flex-direction: column-reverse;
+		margin-top: -200px;
+		margin-right: 80px;
+    }
+	.my__foto {
+		margin-left: 80px;
+	}
+    .source {
+        display: none;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .copyright-text  {
+       display: none;
+    }
+    form {
+        padding-right: 20px;
+    }
+    .block {
+        display: none;
+    }
+	
+   
+}
+
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+@media screen and (max-width: 768px) {
+	.main__content {
+		display: flex;
+		flex-direction: column;
+	}
+	.home-computer-container {
+		margin-top: -20px;
+	}
+    form {
+        padding-right: 20px;
+    }
+	.contact {
+		font-size: 44px;
+	}
+	.icons {
+		margin-left: 50px;
+	}
+	
+}	
+
+/* ///////////////////////////////////////////////////////////////////////////////// */
+
+@media screen and (max-width: 480px) {
+	.home-computer-container {
+		display: none;
+	}
+	.carousel-item {
+		padding-right: 200px;
+	}
+    form {
+        padding-right: 10px;
+    }
+
+}
